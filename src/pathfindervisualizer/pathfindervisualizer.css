@@ -1,0 +1,106 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light cyan background for a fresh look */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #controls2{
+    margin-bottom: 5px;
+    margin-left: 23%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    background-color: #5a85d4; /* White background for controls */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+  }
+  .controls {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #65be78; /* White background for controls */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Dropdown and Button Styling */
+  select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #00796b; /* Teal border */
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  select:hover {
+    border-color: #004d40; /* Darker teal on hover */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Grid Styling */
+  .grid {
+    margin: 20px 0 0;
+  }
+  
+  /* Node Styling */
+  .node {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff; /* Default node background */
+    border: 1px solid #b0bec5; /* Light gray border */
+    transition: background-color 0.2s ease;
+  }
+  
+  /*.node-start {
+    background-color: #66bb6a;} /* Green for start node */
+  
+  
+  /*.node-finish {
+    background-color: #ef5350;} /* Red for finish node */
+  
+  
+  .node-wall {
+    background-color: #440303; /* Dark gray for wall */
+  }
+  
+  .node-visited {
+    background-color: #90caf9; /* Light blue for visited */
+  }
+  
+  .node-shortest-path {
+    background-color: #e9e50c; /* Yellow for shortest path */
+  }
+  
+  
